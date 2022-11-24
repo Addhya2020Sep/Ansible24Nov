@@ -1,0 +1,22 @@
+---
+- hosts: all
+  become: yes
+  tasks:
+  - name: i want to install git
+    apt:
+      name: git
+      state: present
+    when: ansible_os_family=="Debian"
+
+  - name: i want to install wget
+    apt:
+      name: wget
+      state: present
+    when: ansible_os_family=="Debian"
+
+  - name: i want to install webserver on RedHat
+    yum:
+      name: httpd
+      state: present
+    when: ansible_os_family =="RedHat"
+  
