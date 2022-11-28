@@ -5,3 +5,9 @@
 
 [Dbservers]
 172.31.10.19
+
+
+[Mywebservres:vars]
+
+Mywebpackonubuntu=apache2
+Mywebpackonredhat=httpd
