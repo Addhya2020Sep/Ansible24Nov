@@ -1,5 +1,5 @@
 
 ---
 
- Mywebpackonubuntu: apache2
- Mywebpackonredhat: httpd
+Installjavaonubuntu: openjdk-8-jre
+Installjavaonredhat: java-1.8.0-openjdk
